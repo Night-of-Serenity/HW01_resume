@@ -1,7 +1,30 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
 h1 {
     color: red;
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-brands.fa-youtube {
+    color: white;
+    font-size: 2rem;
+}
+.title-box {
+    border: 1px dashed black;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: white;
+    background-blend-mode: luminosity;
+    background-color: rgba(21, 218, 233, 0.756);
 }

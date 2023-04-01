@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <style>
-    
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      nav {
+        padding: 1rem;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="education.html">Education</a> |
-        <a href="work.html">Work Experience</a> |
-        <a href="#">Contact Me</a> |
+      <a href="index.html">Home</a> | <a href="education.html">Education</a> |
+      <a href="work.html">Work Experience</a> | <a href="#">Contact Me</a> |
     </nav>
-    <hr>
-    <h2>Enter your info...</h2>
-    <form action="/action_page.php">
-        <label for="yourname">Your name</label>
-        <br>
-        <input type="text" id="yourname" name="yourname">
-        <br>
-        <br>
-        <label for="email">Your email address</label>
-        <br>
-        <input type="email" id="email" name="email">
-        <br>
-        <br>
-        <label for="gender">Gender</label>
-        <br>
-        <select id="gender" name="gender">
+    <hr />
+    <div style="padding: 1rem">
+      <div style="border: 1px solid black; padding: 1rem; width: 300px">
+        <h2>Enter your info...</h2>
+        <form action="/action_page.php">
+          <label for="yourname">Your name</label>
+          <br />
+          <input type="text" id="yourname" name="yourname" />
+          <br />
+          <br />
+          <label for="email">Your email address</label>
+          <br />
+          <input type="email" id="email" name="email" />
+          <br />
+          <br />
+          <label for="gender">Gender</label>
+          <br />
+          <select id="gender" name="gender">
             <option value="" selected disabled>select...</option>
             <option value="male">male</option>
             <option value="female">female</option>
             <option value="other">other</option>
-        </select>
-        <br>
-        <br>
-        <label for="message">Message</label>
-        <br>
-        <textarea name="message" rows="10" cols="30">
-         </textarea>
-         <br>
-        <input type="submit" value="Submit">
-    </form>
-
-</body>
+          </select>
+          <br />
+          <br />
+          <label for="message">Message</label>
+          <br />
+          <textarea name="message" rows="10" cols="30"> </textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

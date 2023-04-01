@@ -11,7 +11,7 @@
 .title-box {
     border: 1px dashed black;
     padding: 2rem 1rem;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     background-image: url('https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
